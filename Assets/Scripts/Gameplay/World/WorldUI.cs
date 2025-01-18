@@ -114,17 +114,21 @@ namespace RM_MST
                 savingPossible = false;
             }
 
-            // If saving is possible, check if the LOL SDK is initialized.
-            // If it isn't, then saving isn't possible no matter what, since it's done through the LOL SDK.
-            if(savingPossible)
-            {
-                // If the LOL manager is not instantiated, or if the LOL SDK is not initialized.
-                // Since saving is done through the LOL SDK, if that isn't initialized, saving isn't possible.
-                if(!SystemManager.IsInstantiatedAndIsLOLSDKInitialized())
-                {
-                    savingPossible = false;
-                }
-            }
+
+            // Removed check for LOL SDK since saving should be possible...
+            // As long as allowSaveLoad is true.
+
+            // // If saving is possible, check if the LOL SDK is initialized.
+            // // If it isn't, then saving isn't possible no matter what, since it's done through the LOL SDK.
+            // if(savingPossible)
+            // {
+            //     // If the LOL manager is not instantiated, or if the LOL SDK is not initialized.
+            //     // Since saving is done through the LOL SDK, if that isn't initialized, saving isn't possible.
+            //     if(!SystemManager.IsInstantiatedAndIsLOLSDKInitialized())
+            //     {
+            //         savingPossible = false;
+            //     }
+            // }
 
             // If saving is possible, then keep the save button interactable.
             // If saving is not possible, then disable the save button.

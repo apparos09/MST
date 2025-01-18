@@ -337,12 +337,14 @@ namespace RM_MST
         // Saves the data for the game.
         public bool SaveGame()
         {
-            // If the LOL Manager does not exist, or the LOL SDK has not been initialized, return false.
-            if (!SystemManager.IsInstantiatedAndIsLOLSDKInitialized())
-            {
-                Debug.LogError("The LOL Manager does not exist.");
-                return false;
-            }
+            // The LOL system is not checked for anymore since the game no longer uses it.
+
+            // // If the LOL Manager does not exist, or the LOL SDK has not been initialized, return false.
+            // if (!SystemManager.IsInstantiatedAndIsLOLSDKInitialized())
+            // {
+            //     Debug.LogError("The LOL Manager does not exist.");
+            //     return false;
+            // }
 
             // Gets the save system.
             SaveSystem saveSys = SystemManager.Instance.saveSystem;

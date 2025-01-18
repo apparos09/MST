@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 85935189}
   - component: {fileID: 85935188}
   - component: {fileID: 85935187}
+  - component: {fileID: 85935191}
+  - component: {fileID: 85935192}
   m_Layer: 0
   m_Name: System Manager
   m_TagString: Untagged
@@ -180,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a603d4351a8860c4d890a38a975ef0cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveSystem: {fileID: 1874387636}
+  saveSystem: {fileID: 85935191}
   textToSpeech: {fileID: 85935188}
 --- !u!4 &85935190
 Transform:
@@ -198,6 +200,197 @@ Transform:
   - {fileID: 1774420159}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &85935191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85935186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d362557f90fb40f4e85d8acce8a962aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowSaveLoad: 1
+  lastSave:
+    valid: 0
+    complete: 0
+    useTutorial: 1
+    gameTime: 0
+    gameScore: 0
+    stageDatas:
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    tutorialData:
+      clearedIntroTutorial: 0
+      clearedFirstStageTutorial: 0
+      clearedHiddenMultiplesTutorial: 0
+      clearedBarriersTutorial: 0
+      clearedSurfaceTutorial: 0
+      clearedPuzzleButtonsTutorial: 0
+      clearedPuzzleSwapTutorial: 0
+      clearedPuzzleSlideTutorial: 0
+      clearedPuzzlePathTutorial: 0
+      clearedFirstWinTutorial: 0
+      clearedMixStageTutorial: 0
+      clearedLengthImperial: 0
+      clearedWeightImperial: 0
+      clearedTimeTutorial: 0
+      clearedLengthMetricTutorial: 0
+      clearedWeightMetricTutorial: 0
+      clearedCapacityTutorial: 0
+    gameMode: 0
+  loadedData:
+    valid: 0
+    complete: 0
+    useTutorial: 1
+    gameTime: 0
+    gameScore: 0
+    stageDatas:
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    - stageName: 
+      stageTime: 0
+      stageScore: 0
+      highestCombo: 0
+      losses: 0
+      cleared: 0
+    tutorialData:
+      clearedIntroTutorial: 0
+      clearedFirstStageTutorial: 0
+      clearedHiddenMultiplesTutorial: 0
+      clearedBarriersTutorial: 0
+      clearedSurfaceTutorial: 0
+      clearedPuzzleButtonsTutorial: 0
+      clearedPuzzleSwapTutorial: 0
+      clearedPuzzleSlideTutorial: 0
+      clearedPuzzlePathTutorial: 0
+      clearedFirstWinTutorial: 0
+      clearedMixStageTutorial: 0
+      clearedLengthImperial: 0
+      clearedWeightImperial: 0
+      clearedTimeTutorial: 0
+      clearedLengthMetricTutorial: 0
+      clearedWeightMetricTutorial: 0
+      clearedCapacityTutorial: 0
+    gameMode: 0
+  fileReader: {fileID: 85935192}
+  worldManager: {fileID: 0}
+  feedbackText: {fileID: 0}
+--- !u!114 &85935192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85935186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1201b80c74022c94b803f387d1178410, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: save.dat
+  filePath: Assets\Resources\Data\
+  bytes: 
 --- !u!1 &282714746
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,214 +799,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 85935190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1874387635
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1874387637}
-  - component: {fileID: 1874387636}
-  m_Layer: 0
-  m_Name: Save System
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1874387636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874387635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d362557f90fb40f4e85d8acce8a962aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allowSaveLoad: 1
-  lastSave:
-    valid: 0
-    complete: 0
-    useTutorial: 1
-    gameTime: 0
-    gameScore: 0
-    stageDatas:
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    tutorialData:
-      clearedIntroTutorial: 0
-      clearedFirstStageTutorial: 0
-      clearedHiddenMultiplesTutorial: 0
-      clearedBarriersTutorial: 0
-      clearedSurfaceTutorial: 0
-      clearedPuzzleButtonsTutorial: 0
-      clearedPuzzleSwapTutorial: 0
-      clearedPuzzleSlideTutorial: 0
-      clearedPuzzlePathTutorial: 0
-      clearedFirstWinTutorial: 0
-      clearedMixStageTutorial: 0
-      clearedLengthImperial: 0
-      clearedWeightImperial: 0
-      clearedTimeTutorial: 0
-      clearedLengthMetricTutorial: 0
-      clearedWeightMetricTutorial: 0
-      clearedCapacityTutorial: 0
-    gameMode: 0
-  loadedData:
-    valid: 0
-    complete: 0
-    useTutorial: 1
-    gameTime: 0
-    gameScore: 0
-    stageDatas:
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    - stageName: 
-      stageTime: 0
-      stageScore: 0
-      highestCombo: 0
-      losses: 0
-      cleared: 0
-    tutorialData:
-      clearedIntroTutorial: 0
-      clearedFirstStageTutorial: 0
-      clearedHiddenMultiplesTutorial: 0
-      clearedBarriersTutorial: 0
-      clearedSurfaceTutorial: 0
-      clearedPuzzleButtonsTutorial: 0
-      clearedPuzzleSwapTutorial: 0
-      clearedPuzzleSlideTutorial: 0
-      clearedPuzzlePathTutorial: 0
-      clearedFirstWinTutorial: 0
-      clearedMixStageTutorial: 0
-      clearedLengthImperial: 0
-      clearedWeightImperial: 0
-      clearedTimeTutorial: 0
-      clearedLengthMetricTutorial: 0
-      clearedWeightMetricTutorial: 0
-      clearedCapacityTutorial: 0
-    gameMode: 0
-  fileReader: {fileID: 0}
-  worldManager: {fileID: 0}
-  feedbackText: {fileID: 0}
---- !u!4 &1874387637
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874387635}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -821,6 +806,5 @@ SceneRoots:
   - {fileID: 585997919}
   - {fileID: 282714748}
   - {fileID: 85935190}
-  - {fileID: 1874387637}
   - {fileID: 1143150841}
   - {fileID: 1616133757}
