@@ -423,6 +423,20 @@ namespace RM_MST
             AdjustTtsAudioLevels();
         }
 
+        // Sets if the game uses full-screen or not.
+        public bool UseFullScreen
+        {
+            get
+            {
+                return SceneHelper.IsFullScreen();
+            }
+
+            set
+            {
+                SceneHelper.SetFullScreen(value);
+            }
+        }
+
         // Called when the scene was loaded.
         public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {

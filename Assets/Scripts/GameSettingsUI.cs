@@ -41,6 +41,9 @@ namespace RM_MST
         // the tutorial toggle.
         public Toggle tutorialToggle;
 
+        // the full-screen toggle
+        public Toggle fullScreenToggle;
+
         // Start is called before the first frame update
         void Start()
         {
@@ -93,6 +96,23 @@ namespace RM_MST
             // If the SDK isn't initialized, some functions may be unavailable.
             // NOTE: the 'interactable' component of the tutorial toggle isn't changed because...
             // The toggle can only be interacted with on the title screen. It's non-interactable otherwise.
+
+
+            // If the game is running in WebGL, disable the full-screen toggle, as this is handled by Itch.io.
+            if(Application.platform == RuntimePlatform.WebGLPlayer)
+            {
+                // Disable the full-screen toggle.
+                fullScreenToggle.interactable = false;
+            }
+            else
+            {
+                // Set the full screen toggle to be interactable.
+                fullScreenToggle.interactable = true;
+            }
+
+            // Set the toggle based on if full-screen is being used or not.
+            fullScreenToggle.isOn = gameSettings.UseFullScreen;
+
 
             // These functions are disabled here.
             if (SystemManager.IsLOLSDKInitialized())
@@ -160,6 +180,12 @@ namespace RM_MST
         public void OnTtsVolumeChange(Slider slider)
         {
             gameSettings.TtsVolume = Mathf.InverseLerp(slider.minValue, slider.maxValue, slider.value);
+        }
+
+        // On the full-screen toggle.
+        public void OnFullScreenChange(Toggle toggle)
+        {
+            gameSettings.UseFullScreen = toggle.isOn;
         }
 
     }
