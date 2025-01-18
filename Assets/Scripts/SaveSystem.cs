@@ -328,10 +328,7 @@ namespace RM_MST
             // If the instance has been initialized.
             if (SystemManager.Instantiated)
             {
-                // feedbackString = "Saving Data";
-
-
-
+                feedbackString = "Saving Data";
                 success = true;
             }
             else // Not initialized.

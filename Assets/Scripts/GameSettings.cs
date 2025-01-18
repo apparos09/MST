@@ -161,8 +161,7 @@ namespace RM_MST
         {
             get
             {
-                // return SystemManager.IsLOLSDKInitialized();
-                return false;
+                return SystemManager.IsLOLSDKInitialized();
             }
         }
 

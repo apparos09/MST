@@ -49,6 +49,7 @@ namespace RM_MST
         // Start is called before the first frame update
         void Start()
         {
+            // Sets the title manager.
             if (manager == null)
                 manager = TitleManager.Instance;
 
@@ -59,37 +60,70 @@ namespace RM_MST
                 quitButton.interactable = false; // Disable               
             }
 
-            // If the LOLSDK has been initialized.
-            if(GameSettings.InitializedLOLSDK)
-            {
-                quitButton.gameObject.SetActive(false); // Turn-Off
-            }
-            // If the LOLSDK isn't initialized, make the continue button non-interactable.
-            else
-            {
-                // Disable continue.
-                continueButton.interactable = false;
-            }
+            // Not needed since the LOLSDK is no lonegr included.
 
-            // Save the save text as the save feedback text.
-            if(SystemManager.IsInstantiatedAndIsLOLSDKInitialized())
+            // // If the LOLSDK has been initialized.
+            // if(GameSettings.InitializedLOLSDK)
+            // {
+            //     quitButton.gameObject.SetActive(false); // Turn-Off
+            // }
+            // // If the LOLSDK isn't initialized, make the continue button non-interactable.
+            // else
+            // {
+            //     // Continue is no longer disabled on this basis.
+            //     // // Disable continue.
+            //     // continueButton.interactable = false;
+            // }
+
+
+            // OLD - LOL SDK Check
+            // // Save the save text as the save feedback text.
+            // if(SystemManager.IsInstantiatedAndIsLOLSDKInitialized())
+            // {
+            //     // Set the save text for the save system if it exists.
+            //     if(SystemManager.Instance.saveSystem != null)
+            //     {
+            //         SystemManager.Instance.saveSystem.feedbackText = saveText;
+            //     }
+            // 
+            //     // Show the new game button and hide the mode button.
+            //     newGameButton.gameObject.SetActive(true);
+            //     newGameModeButton.gameObject.SetActive(false);
+            // }
+            // else
+            // {
+            //     // Hide the new game button and show the mode button.
+            //     newGameButton.gameObject.SetActive(false);
+            //     newGameModeButton.gameObject.SetActive(true);
+            // }   
+
+
+            // NEW - SystemManager Check
+            if(SystemManager.Instantiated)
             {
                 // Set the save text for the save system if it exists.
-                if(SystemManager.Instance.saveSystem != null)
+                if (SystemManager.Instance.saveSystem != null)
                 {
-                    SystemManager.Instance.saveSystem.feedbackText = saveText;
+                    // Gets the save system.
+                    SaveSystem saveSystem = SystemManager.Instance.saveSystem;
+
+                    // Sets the feedback text.
+                    saveSystem.feedbackText = saveText;
+
+                    // If there is loaded data, allow the continue button to be used.
+                    // If there is no loaded data, disable the continue button.
+                    continueButton.interactable = saveSystem.HasLoadedData();
                 }
 
-                // Show the new game button and hide the mode button.
-                newGameButton.gameObject.SetActive(true);
-                newGameModeButton.gameObject.SetActive(false);
-            }
-            else
-            {
                 // Hide the new game button and show the mode button.
                 newGameButton.gameObject.SetActive(false);
                 newGameModeButton.gameObject.SetActive(true);
-            }   
+            }
+            else
+            {
+                // Disable the continue button since the save system cannot be accessed.
+                continueButton.interactable = false;
+            }
 
             // Opens the title window at the start.
             OpenWindow(titleWindow);
