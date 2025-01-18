@@ -370,12 +370,13 @@ namespace RM_MST
         // Loads data, and return a 'bool' to show it was successful.
         public bool LoadGame()
         {
-            // If the LOL Manager does not exist, or the LOL SDK has not been initialized, return false.
-            if (!SystemManager.IsInstantiatedAndIsLOLSDKInitialized())
-            {
-                Debug.LogError("The LOL Manager does not exist or the LOL SDK has not been initialized.");
-                return false;
-            }
+            // The LOL System is no longer used.
+            // // If the LOL Manager does not exist, or the LOL SDK has not been initialized, return false.
+            // if (!SystemManager.IsInstantiatedAndIsLOLSDKInitialized())
+            // {
+            //     Debug.LogError("The LOL Manager does not exist or the LOL SDK has not been initialized.");
+            //     return false;
+            // }
 
             // Gets the save system.
             SaveSystem saveSys = SystemManager.Instance.saveSystem;

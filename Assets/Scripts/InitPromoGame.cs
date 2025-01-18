@@ -9,10 +9,6 @@ namespace RM_MST
     // Initializes the promo game.
     public class InitPromoGame : MonoBehaviour
     {
-        // GAME //
-        // Data for the game.
-        MST_GameData gameData;
-
         // Becomes 'true' when the game has been initialized.
         [HideInInspector]
         public bool initializedGame = false;

@@ -193,7 +193,13 @@ namespace RM_MST
 
                 // If empty, delete the file.
                 if (empty)
+                {
                     fileReader.DeleteFile();
+                }
+                else // Not empty, so try to load the game.
+                {
+                    LoadGame();
+                }
 
             }
 
