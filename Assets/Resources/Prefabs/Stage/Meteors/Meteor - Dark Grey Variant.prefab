@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8871629636713431462
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403566832508613099, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: -1882144988, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 954372943, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 1949503271, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 1760673129, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 504933713, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 2142884513, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: -1339761748, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: -1733551024, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 1356159005, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: -1822325340, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: 2146345565, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 842851128, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 1928635962, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[13]
+      value: 
+      objectReference: {fileID: 510691918, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[14]
+      value: 
+      objectReference: {fileID: 1428248577, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 3009806165377321055, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: meteorSprites.Array.data[15]
+      value: 
+      objectReference: {fileID: 1916241297, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    - target: {fileID: 7940236873421249794, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_Name
+      value: Meteor - Dark Grey Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8412027103704025470, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1882144988, guid: bde21ff3e0bbf644bb410819128fd4ed, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d2fe1ca55a1e5e4895aeab1b087592f, type: 3}

@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9115042548243420091
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 311365992852596284, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6304beaa16184e84b82b0a8701c7c850, type: 2}
+    - target: {fileID: 413993938038503850, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_Name
+      value: Partner B Icon Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183979739087566539, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3912881813103141458, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1123979980, guid: a17f2ee993d3a9347b51c35e998f529a, type: 3}
+    - target: {fileID: 4712457573445462117, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: sadAnim
+      value: Partner B - Sad Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712457573445462117, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: charName
+      value: Astrite
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712457573445462117, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: angryAnim
+      value: Partner B - Angry Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712457573445462117, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: happyAnim
+      value: Partner B - Happy Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712457573445462117, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: charNameKey
+      value: chr_partnerB_nme
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712457573445462117, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: neutralAnim
+      value: Partner B - Neutral Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712457573445462117, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: offlineAnim
+      value: Partner B - Offline Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712457573445462117, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: shockedAnim
+      value: Partner B - Shocked Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077662998841059962, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077662998841059962, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077662998841059962, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5529412
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 754a8c43d1114a244a499cfe092d4552, type: 3}

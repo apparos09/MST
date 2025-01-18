@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3592988896381373822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3011402485720320252}
+  - component: {fileID: 8926715613063369270}
+  m_Layer: 0
+  m_Name: Stage Manager
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3011402485720320252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3592988896381373822}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8926715613063369270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3592988896381373822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d26c6d5582b9e49b5a4251aa28c54d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameUI: {fileID: 0}
+  gameTime: 0
+  mouseTouch: {fileID: 0}
+  tutorials: {fileID: 0}
+  gameInfo: {fileID: 0}
+  unitsInfo: {fileID: 0}
+  titleScene: TitleScene
+  resultsScene: ResultsScene
+  stageUI: {fileID: 0}
+  stageAudio: {fileID: 0}
+  stage: {fileID: 0}
+  stageName: 
+  bgdNumber: 0
+  bgmNumber: 0
+  stageIndex: -1
+  difficulty: 0
+  baseDifficulty: 0
+  losses: 0
+  phase: 0
+  pointsGoal: 500
+  consecutiveSuccesses: 0
+  player: {fileID: 0}
+  meteorTarget: {fileID: 0}
+  stageSurface: {fileID: 0}
+  stageBarriers: []
+  stageTime: 0
+  stageFinalScore: 0
+  cleared: 0
+  worldScene: WorldScene
+  stageUnitGroups: 
+  meteorSpawnRate: 2
+  meteorSpeedMax: 1
+  meteorPrefabs:
+  - {fileID: 5598984342507308061, guid: e2ab8f6230c5f884386d095f6fd46ccf, type: 3}
+  - {fileID: 5970267755578477049, guid: aae73e9b0ba9ace4aabc0a7959894793, type: 3}
+  - {fileID: 7285035793078636869, guid: 031a3e6536131d34999e79ed56cc8883, type: 3}
+  - {fileID: 7986561566760400614, guid: 4a90f099ddf28644388e3f46fd9f0247, type: 3}
+  combo: 0
+  highestCombo: 0
+  comboDisplay: {fileID: 0}
