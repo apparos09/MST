@@ -1552,6 +1552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage Reject Button
       objectReference: {fileID: 0}
+    - target: {fileID: 7726633749005819728, guid: 3eb77aaff20e4064a9f4940aa2079af1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 35440cde78997fe46a6712b7d7eda5d1, type: 3}
     - target: {fileID: 8440818229853892699, guid: 3eb77aaff20e4064a9f4940aa2079af1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1578,7 +1582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8440818229853892699, guid: 3eb77aaff20e4064a9f4940aa2079af1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 256
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 8440818229853892699, guid: 3eb77aaff20e4064a9f4940aa2079af1, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2299,6 +2303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage Start Button
       objectReference: {fileID: 0}
+    - target: {fileID: 7726633749005819728, guid: 3eb77aaff20e4064a9f4940aa2079af1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 35440cde78997fe46a6712b7d7eda5d1, type: 3}
     - target: {fileID: 8440818229853892699, guid: 3eb77aaff20e4064a9f4940aa2079af1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2325,7 +2333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8440818229853892699, guid: 3eb77aaff20e4064a9f4940aa2079af1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 256
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 8440818229853892699, guid: 3eb77aaff20e4064a9f4940aa2079af1, type: 3}
       propertyPath: m_SizeDelta.y
